@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-principal{
+    width: 100%;
+    max-width: 1280px;
+    height: 720px;
+    margin: 0 auto;
+}
+
+header div {
+    max-width: 1200px;
+    display: flex;
+    margin-bottom: 75px;
+    justify-content: space-between;
+}
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+.button {
+    width: 150px;
+    height: 40px;
+    background-color: #0A99FE10; 
+    border: solid 1px #0A99FE10;
+    border-radius: 4px;
+}
+.activ {
+    background-color: #0A99FE; 
+    border: solid 1px #0A99FE;
+}
+.itens {
+    list-style: none;
+    overflow-x: auto;
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+    gap: 15px;
+}
+.itens li {
+    width: 207px;
+    height: 275px;
+    background-color:#86838310 ;
+    
+}
+.itens li figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.itens li figure img{
+    width: 207px;
+    height: 137.5px;
+    object-fit: cover;
+}
+.itens li figure  p {
+    font-family:'Roboto', sans-serif;
+    font-size: 20px ;
+    font-weight: Medium;
+}
+.itens li figure span {
+    font-family:'Roboto', sans-serif;
+    font-size: 16px ;
+    
+}
+
+header div img {
+    height: 70px;
+    width: 230px;
+    
+}
+section nav ul{
+    display: flex;
+   
+    width: 700px;
+    margin: 0 auto;
+}
+section nav ul li {
+    width: 275px;
+    height: 210px;
+    margin-right: 26px;
+}
+
+section nav ul li figure {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+section nav ul li figure img {
+    border-radius: 10px;
+}
+
+section nav ul li p {
+    color: #1B1B1B;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
